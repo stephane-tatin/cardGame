@@ -4,7 +4,7 @@ A small exercice for a card game
 - Clone the repo 
 - you can start the game with node.js and the command "node cardGame" in the terminal
 
-Instrutions(German)
+Instructions(German)
 # Kartenspiel
 Diese kleine Übung beschreibt ein einfaches (wenn auch nicht sehr spannendes) Kartenspiel, das es zu implementieren gilt.
 Der Fokus sollte dabei auf sauberem, gut strukturierten Code liegen. Externe Libraries oder Frameworks werden nicht
