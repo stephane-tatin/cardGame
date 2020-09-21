@@ -1,7 +1,6 @@
 const readline = require("readline")
 
 //Card Object
-
 function Card(face, color) {
     this.face = face;
     this.color = color;
@@ -30,8 +29,6 @@ function Card(face, color) {
 
 
 //Player Object
-
-
 function Player(name) {
     this.name = name
     this.cards = []
@@ -167,8 +164,6 @@ function beginGame(name) {
     computer.calculateScore()
 
     countPoints(human, computer)
-
-    rematch
 
     rl.question("do you want to do an other game(yes/no) ?", (answer) => {
         rematch(answer, human)
